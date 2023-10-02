@@ -1,0 +1,421 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}  
+
+body {
+    background-color: black;
+    color:  white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    padding: 1rem;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}  
+ 
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Portfolio/images/img.jpg);
+    align-items: center;
+    /* position: absolute; */
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 0.5em;
+    letter-spacing: 2px;
+} 
+.intro div:nth-child(2){
+    font-size: 2rem;
+}
+.intro div:nth-child(3){
+    font-size: 3rem;
+}
+
+span{
+    color: red;
+}
+
+.org{
+    color: orange;
+} 
+ .gre{
+    color: green;
+ } 
+ 
+ .about2{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+ }  
+ 
+ .lhs {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }  
+ 
+ .frame{
+    height: 80%;
+    width: 80%;
+    background-image: url(/Portfolio/images/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+ }
+
+ .rhs{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .section{
+    height: 80%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+ }
+  
+ .aboutme{
+    height: 20%;
+    width: 50%;
+    font-size: 2rem;
+ }  
+
+ .para{
+    height: 40%;
+    width: 70%;
+    font-size: 1.1rem;
+ }
+ 
+ .sec{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+ }
+
+ .ex{
+    height: 30%;
+    width: 100%;
+ }  
+
+.ui{
+    height: 33%;
+}  
+
+.mba{
+    height: 33%;
+}  
+
+.bba{
+    height: 33%;
+}
+ 
+ .about3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding: 2rem;
+   
+ } 
+
+ .my{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    font-size: 3rem;
+   justify-content: center;
+ }
+
+ .col{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0rem;
+    padding: 2rem;
+ }  
+
+ .col div {
+   background-color: #111;
+   height: fit-content;
+   border-radius: 10px;
+   padding: 2rem 0rem;
+ }
+
+ .app{
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: center;
+   width: 30%;
+ } 
+
+ .web{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 30%;
+ } 
+
+ .ops{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 30%;
+ } 
+
+ .ad{
+    width: 90%;
+    height: 20%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }  
+
+ .p{
+    width: 90%;
+    height: 40%;
+ }  
+ 
+ .ada{
+    width: 90%;
+    height: 20%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }  
+
+ .pap{
+    width: 90%;
+    height: 40%;
+ }  
+
+ .adad{
+    width: 90%;
+    height: 20%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }  
+
+ .pa{
+    width: 90%;
+    height: 40%;
+ }  
+ 
+ .logo{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+ }  
+
+ .about4{
+   width: 100vw;
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   /* height: max-content; */
+   }   
+
+   .colm{
+      height: 80%;
+      /* height: max-content; */
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      gap: 1rem;
+
+   }
+   .wors{
+      display: flex;
+      height: 20%;
+      width: 100%;
+      font-size: 3rem;
+      align-items: center;
+      justify-content: center;
+      height: max-content;
+   }  
+
+ .item1{
+   background-image: url(images/img3.jpg);
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   height: 80%;
+    width: 33%;
+    border-radius: 5px;
+
+ }
+
+ .item2{
+   background-image: url(images/img4.jpg);
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   height: 80%;
+    width: 33%;
+    border-radius: 5px;
+
+ }
+
+ .item3{
+   background-image: url(images/img5.jpg);
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   height: 80%;
+    width: 33%;
+    border-radius: 5px;
+ }
+
+ .butt{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+ }
+  
+ .cls{
+   background-color :black;
+   color:white;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+   border:  1px solid red;
+   padding: 0.5rem 1rem 0.5rem 1rem;
+ }  
+
+ .about5{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: space-evenly;
+
+ }  
+
+ .lhs1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+ }
+  
+ .sub{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .cv{
+   color: white;
+   background-color:black;
+   border-radius: 0.5rem;
+   border: 1px solid red;
+   padding: 0.5rem 1rem 0.5rem 1rem;
+ }
+ 
+ .butn{
+      color:white;
+      background-color: black;
+      font-size: 2rem;
+      border-radius: 0.5rem;
+       border:  1px solid red;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      cursor: pointer;
+}  
+
+.butn:hover {
+   color: yellow;
+   background-color: red;
+}
+
+
+
+button:hover{
+   color: yellow;
+   background-color: red;
+}
+   
+   .rhs1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+   }  
+
+   .cont{
+      font-size: 4rem;
+   } 
+
+   .mob{
+      display: flex;
+   width: 65%;
+   gap: 5px;
+   } 
+
+   .log{
+      display: flex;
+      font-size: 2rem;
+      justify-content: space-evenly;
+      width: 90%;
+   } 
+
+   .tel{
+      display: flex;
+      gap :5px;
+      width: 65%;
+   } 
+
+   .app{
+      background-color: brown;
+   } 
+
+   .web{
+      background-color: blueviolet;
+   } 
+
+   .ops{
+      background-color: aqua;
+   }
